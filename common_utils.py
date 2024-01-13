@@ -414,7 +414,7 @@ class ImportAnnotationsTextDialog(QDialog):
             self.close()
 
     def text(self):
-        return unicode(self.pte.toPlainText())
+        return unicode(self.pteText)
 
 
 class CoverMessageBox(QDialog, Ui_Dialog):
